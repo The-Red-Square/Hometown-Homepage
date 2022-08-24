@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Inter&family=Josefin+Sans:wght@400;700&family=Kanit&display=swap");
+
+body {
+    margin: 0;
+    background-color: #faedcd;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;;
+}
+
+#head {
+    background-image: url("guad.png");
+    width: 100vw;
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 17vh;
+
+}
+
+#guad {
+    margin-top: 35vh;
+    font-size: 7vh;
+    border:4px double black;
+    background: #264653;
+    padding: 1vh 5vw;
+    border-radius: 20px;
+    position: absolute;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+
+#headdescript {
+    margin-top: 50vh;
+    color: black;
+    font-size: 2.2vh;
+    font-weight: bold;
+    text-align: center;
+    background-color: lightsteelblue;
+    position: absolute;
+    padding: 1vh 3vw;
+    max-width: 20vw;
+    border-radius: 5px;
+}
+
+
+
+
+#activities {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25vh;
+}
+
+#a1 {
+    text-align: center;
+    max-width: 18vw;    
+}
+
+#a1i {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(a1.png);
+    background-size: cover;
+    background-position: center;
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+    margin-bottom: 6vh;
+    border:8px double white;
+}
+
+#a2 {
+    text-align: center;
+    max-width: 19vw;
+
+}
+
+#a2i {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(a2i.png);
+    background-size: cover;
+    background-position: center;
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+    margin-bottom: 6vh;
+    border:8px double white;
+
+}
+
+#a3 {
+    text-align: center;
+    max-width: 18vw;
+}
+
+#a3i {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(a3i.png);
+    background-size: cover;
+    background-position: center;
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+    margin-bottom: 6vh;
+    border:8px double white;
+
+}
+
+
+
+
+#card {
+    width: 40vw;
+    height: 32vh;
+    margin-left: 20vw;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background: lightsteelblue;
+    color: black;
+    border: 7px outset #264653;
+    margin-bottom: 20vh;
+}
+
+#avatar {
+    background-image: url(cardimg.png);
+    background-size: cover;
+    background-position: center;
+    width: 18vw;
+    max-height: 18vw;
+}
+
+.cardtext {
+    width: 20vw;
+    text-shadow: 1px 1px 4px white;
+}
